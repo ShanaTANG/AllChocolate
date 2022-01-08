@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'HanyiSentyTea\ Regular';
+    src: url('../fonts/HanyiSentyTea\ Regular.woff') format("woff"),
+        url('../fonts/HanyiSentyTea\ Regular.ttf') format("truetype"),
+        url('../fonts/HanyiSentyTea\ Regular.eot') format("embedded-opentype");
+}
+
+* {
+    font-family: "HanyiSentyTea\ Regular";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/背景1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*---------標題--------*/
+.titlename {
+    color: tomato;
+    font-size: 70px;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+    width: 300px;
+}
+
+/*---------菜單--------*/
+.header {
+    background-color: #2F3E46;
+    max-width: 100%;
+}
+
+.flex-nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 45px;
+    font-weight: bold;
+    width: 1000px;
+    margin-left: 35%;
+}
+
+.flexword {
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.flevbox {
+    display: flex;
+    list-style-type: none;
+}
+
+.flex{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+/*---------內容--------*/
+.ckeckboss {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkbox1 {
+    text-align: justify;
+    color: white;
+    margin-top: 60px;
+    font-size: 40px;
+    margin-left: 35%;
+    list-style-type: none;
+}
+
+hr{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
